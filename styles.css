@@ -1,0 +1,42 @@
+body {
+  background-repeat: no-repeat;
+}
+#wrapper {
+  width: 150px;
+}
+h2 {
+  color: #aeaeae;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  width: 60px;
+  color: rgb(51, 103, 214);
+  background-color: #ffd;
+  border-radius: 15%;
+  padding: 5%;
+  margin: 5px;
+  font-weight: bold;
+  border: solid 1px burlywood;
+}
+#recommend {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  border-radius: 5px;
+  width: 135px;
+  margin-bottom: 20px;
+}
+#div1 {
+  border-top: solid 2px gray;
+}
+#div2 {
+  align-self: center;
+  border-top: solid 2px gray;
+  border-bottom: solid 2px gray;
+}
+#showUsage {
+  color: blueviolet;
+}

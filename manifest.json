@@ -1,0 +1,25 @@
+{
+  "name": "Recipe book",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "16x16px.png",
+    "48": "48px.png",
+    "128": "128px.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Bear",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab", "tabs", "storage", "<all_urls>"]
+}
